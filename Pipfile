@@ -6,12 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pytest = "1.9.4"
+pytest = "*"
 coverage = "*"
-pygame = "*"
 mido = "*"
 hypothesis = "*"
 fire = "*"
+pygame = "~=1.9.4"
 
 [requires]
 python_version = "3.8"
