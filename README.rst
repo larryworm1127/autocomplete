@@ -33,6 +33,7 @@ Once the data file is present, you can choose what type of autocomplete
 you want (letter, sentence, melody).
 
 Here's an example of calling letter autocomplete engine.
+
 .. code-block:: python
 
   from autocomplete import LetterAutocompleteEngine
