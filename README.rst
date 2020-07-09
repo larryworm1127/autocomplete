@@ -49,7 +49,7 @@ Here's an example of calling letter autocomplete engine.
         20   # number of results
     ))
 
-See documentation for config dict format.
+See documentation for config dictionary format.
 
 The sample folder contains some sample usage of each autocomplete
 engine. The file can be ran in command line to produce autocomplete
