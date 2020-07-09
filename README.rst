@@ -55,7 +55,7 @@ The sample folder contains some sample usage of each autocomplete
 engine. The file can be ran in command line to produce autocomplete
 results from sample data.
 
-**Note:** LetterAutocomplete will take some time to run due to the
-size of the sample data. (over 34000 lines of sentences to
-autocomplete from)
+**Note:** ..code:`LetterAutocompleteEngine` will take some time to 
+run due to the size of the sample data. (over 34000 lines of sentences
+to autocomplete from)
 
