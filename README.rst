@@ -36,18 +36,18 @@ Here's an example of calling letter autocomplete engine.
 
 .. code-block:: python
 
-  from autocomplete import LetterAutocompleteEngine
+    from autocomplete import LetterAutocompleteEngine
 
-  # All autocomplete engines takes a config dict
-  engine = LetterAutocompleteEngine({
-      'file': 'path/file.txt',    # or file.csv
-      'autocompleter': 'simple',  # or 'complex'
-      'weight_type': 'sum'        # or 'average'
-  })
-  print(engine.autocomplete(
-      'prefix you want to autocomplete',
-      20   # number of results
-  ))
+    # All autocomplete engines takes a config dict
+    engine = LetterAutocompleteEngine({
+        'file': 'path/file.txt',    # or file.csv
+        'autocompleter': 'simple',  # or 'complex'
+        'weight_type': 'sum'        # or 'average'
+    })
+    print(engine.autocomplete(
+        'prefix you want to autocomplete',
+        20   # number of results
+    ))
 
 See documentation for config dict format.
 
