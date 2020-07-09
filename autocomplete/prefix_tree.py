@@ -4,6 +4,7 @@ This file contains the design of a public interface (Autocompleter) and two
 implementation of this interface, SimplePrefixTree and CompressedPrefixTree.
 """
 from __future__ import annotations
+
 from typing import Any, List, Optional, Tuple, Union, Dict
 
 
