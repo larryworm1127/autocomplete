@@ -1,11 +1,11 @@
-*******************
-Autocomplete Engine
-*******************
+************
+Autocomplete
+************
 
 Description
 ###########
-The autocomplete engine is a simple Python library that can
-autocomplete letter, sentences, as well as melody given the prefix
+The autocomplete is a simple Python library that contains autocomplete
+engines for letters, sentences, as well as melodies given the prefix
 of the content. The engine takes either a text file (each sentence
 on a single line) or a CSV file, and converts the content of the file
 into a weighted tree data structure in which it then searches through
