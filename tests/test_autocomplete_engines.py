@@ -12,7 +12,7 @@ from autocomplete.engine import (
 
 def test_letter_autocomplete() -> None:
     engine = LetterAutocompleteEngine({
-        'file': 'data/test_data.txt',
+        'file': 'tests/data/test_data.txt',
         'autocompleter': 'simple',
         'weight_type': 'sum'
     })
@@ -35,7 +35,7 @@ def test_letter_autocomplete() -> None:
 
 def test_sentence_autocomplete() -> None:
     engine = SentenceAutocompleteEngine({
-        'file': 'data/test_data.csv',
+        'file': 'tests/data/test_data.csv',
         'autocompleter': 'simple',
         'weight_type': 'sum'
     })
@@ -48,7 +48,7 @@ def test_sentence_autocomplete() -> None:
 
 def test_melody_autocomplete() -> None:
     engine = MelodyAutocompleteEngine({
-        'file': 'data/test_melody.csv',
+        'file': 'tests/data/test_melody.csv',
         'autocompleter': 'simple',
         'weight_type': 'sum'
     })
