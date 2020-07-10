@@ -179,7 +179,7 @@ class SentenceAutocompleteEngine:
 
 
 ################################################################################
-# Melody-based Autocomplete Engines (Task 5)
+# Melody-based Autocomplete Engines
 ################################################################################
 class MelodyAutocompleteEngine:
     """An autocomplete engine that suggests melodies based on a few intervals.
@@ -191,7 +191,7 @@ class MelodyAutocompleteEngine:
     starting pitch or duration of the notes, it is possible for different
     melodies to have the same prefix.
 
-    # === Private Attributes ===
+    === Attributes ===
     autocompleter: An Autocompleter used by this engine.
     """
     autocompleter: Autocompleter
