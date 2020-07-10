@@ -20,7 +20,7 @@ from autocomplete.engine import (
 class Samples:
     """Class containing all sample runs for autocomplete engine.
     """
-    autocompleter: str = 'simple'
+    autocompleter: str = 'compressed'
     weight_type: str = 'sum'
 
     def letter_autocomplete(self) -> List[Tuple[str, float]]:

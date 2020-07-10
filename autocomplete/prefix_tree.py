@@ -8,9 +8,6 @@ from __future__ import annotations
 from typing import Any, List, Optional, Tuple, Union, Dict
 
 
-################################################################################
-# The Autocompleter ADT
-################################################################################
 class Autocompleter:
     """An abstract class representing the Autocompleter Abstract Data Type.
     """
